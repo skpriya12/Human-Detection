@@ -11,7 +11,7 @@ except Exception as e:
     exit(1)
 
 # Open Video File
-video_path = "/Users/karthick/CV/HumanDetection/twoqueue.mp4"
+video_path = "video path"
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
